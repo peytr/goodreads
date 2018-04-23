@@ -15,6 +15,13 @@ __Steps taken:__
 - created index.html.erb
 - configured root route books#index
 - added index method to books controller
+- added boostrap cdn to application.html.erb
+- formatting the index view
+
+Next Steps
+- Create show page to show individual books
+- Add link to each book for show page
+- Move description and pages from index and display in show page
 
 
 
