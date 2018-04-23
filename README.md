@@ -8,6 +8,10 @@ __Steps taken:__
 - rails g model Books cover:string title:string author:string pages:integer
 - started recording steps in this readme
 - added first book "Elon Musk" via rails console
+- added description column to table via terminal rails g migrate AddDescriptionToBooks description:text
+- added description to book one
+- added two more books via rails console
+
 
 
 
