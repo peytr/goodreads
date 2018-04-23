@@ -11,6 +11,10 @@ __Steps taken:__
 - added description column to table via terminal rails g migrate AddDescriptionToBooks description:text
 - added description to book one
 - added two more books via rails console
+- rails g controller books
+- created index.html.erb
+- configured root route books#index
+- added index method to books controller
 
 
 
