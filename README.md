@@ -29,7 +29,7 @@ Next Steps
 - style as required, similar to instarails_shrine tuesday
 
 
-
+# Good Reads - Rails Challenge
 * Ruby version
 2.5.1
 * System dependencies
