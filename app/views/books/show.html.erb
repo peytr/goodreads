@@ -1,0 +1,13 @@
+<div class="container">
+
+    <div class="jumbotron">
+        <h3><%= @book.title %></h3>
+        <p><%= "by #{ @book.author}" %></p>
+        <p><%= image_tag @book.cover, width: 200 %></p>
+        <h5>Description</h5>
+        <p><%= @book.description %></p>
+        <p><small><%= "(#{@book.pages } pages)" %></small></p>
+        <%= link_to "Back", root_path, :class => 'btn btn-danger' %>
+    </div>
+
+</div>
