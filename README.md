@@ -1,9 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Coder Academy Term-2 Rails Exercise
 
-__Steps taken:__
+Good Reads - Book Database
+
+This README would normally document whatever steps are necessary to get the
+application up and running, however in this case I am documenting the steps taken to create the site.
+
+__Steps taken__
 - rails new goodreads
 - rails g model Books cover:string title:string author:string pages:integer
 - started recording steps in this readme
@@ -17,33 +21,6 @@ __Steps taken:__
 - added index method to books controller
 - added boostrap cdn to application.html.erb
 - formatting the index view
-- took a while to sort out link_to!? confirm with instructors, guides.rubyonrails 1.2 link_to @patient causes error, patient works?
 - index view shows all books, title, author, cover, link to see book
 - show view for individual book, title, author, cover, description, pages and link back to root
 - PART 1 COMPLETED
-
-Next Steps
-- add gems as listed, follow docs, commit after each
-- Booststrap gem not listed but install
-- use seed to add more books
-- style as required, similar to instarails_shrine tuesday
-
-
-# Good Reads - Rails Challenge
-* Ruby version
-2.5.1
-* System dependencies
-TBA
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
